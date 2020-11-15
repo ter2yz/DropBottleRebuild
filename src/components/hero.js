@@ -40,13 +40,13 @@ export default function Hero() {
                             <div className="w-full md:w-1/2 flex flex-col items-center md:items-start">
                                 <h1
                                     ref={el => { text = el }}
-                                    className="text-white text-4xl font-bold leading-none mb-5 text-center md:text-left opacity-0 uppercase">
+                                    className="font-montserrat text-white text-4xl font-bold leading-none mb-5 text-center md:text-left opacity-0 uppercase">
                                     Water, with benefits.
                                     <br />
                                     Drink your vitamins.
                                 </h1>
-                                <p className="text-white leading-none mb-5 capitalize">Eco-friendly fruit infuser water bottles.</p>
-                                <button className="py-2 px-3 text-white bg-blue-700 rounded-lg focus:outline-none uppercase">Shop now</button>
+                                <p className="font-ubuntu font-medium text-white leading-none mb-5 capitalize" style={{color: "#434FA7"}}>Eco-friendly fruit infuser water bottles.</p>
+                                <button className="font-ubuntu font-medium text-sm py-2 px-3 text-white bg-blue-primary rounded-lg focus:outline-none uppercase">Shop now</button>
                             </div>
                         </div>
                     </div>

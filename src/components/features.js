@@ -22,7 +22,7 @@ export default function Features() {
                         <div className="w-full my-10 flex flex-col lg:flex-row items-center lg:items-start justify-center">
                             <div className="w-full flex flex-col items-center lg:items-start lg:w-4/12">
                                 <img className="w-auto h-5 mb-2" src={LogoImage} alt="" />
-                                <h2 className="uppercase font-bold text-3xl mb-5 leading-none text-center lg:text-left text-white">
+                                <h2 className="uppercase font-montserrat font-bold text-3xl mb-5 leading-none text-center lg:text-left text-white">
                                     Detox water
                                     <br />
                                     on the go

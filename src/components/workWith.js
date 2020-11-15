@@ -13,9 +13,9 @@ export default function WorkWith() {
             <div className="w-full flex justify-center items-center my-10 bg-white">
                 <div className="container">
                     <div className="w-full flex flex-col items-center">
-                        <img className="mb-5" src={WaveImage} alt="" />
-                        <h2 className="uppercase font-bold text-3xl mb-5">Looks good, does better.</h2>
-                        <p className="text-center mb-5 md:mb-10">
+                        <img className="w-12 h-auto mb-5" src={WaveImage} alt="" />
+                        <h2 className="font-montserrat uppercase font-bold text-3xl text-blue-primary mb-5">Looks good, does better.</h2>
+                        <p className="font-ubuntu text-center mb-5 md:mb-10">
                             Our eco-friendly, fruit infuser water bottles are revolutionising the way people stay hydrated.
                         </p>
                         <div className="w-full flex flex-wrap md:flex-no-wrap justify-center px-4 md:px-10">

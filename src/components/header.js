@@ -22,7 +22,7 @@ export default function Header() {
     let textClasses = [''];
     let logoEl = null;
     if (scrolled) {
-        navbarClasses.push('bg-white py-5 md:py-3');
+        navbarClasses.push('bg-white py-5 md:py-3 shadow-md');
         textClasses.push('text-gray-800');
         logoEl = LogoDarkImage;
     } else {
@@ -44,27 +44,27 @@ export default function Header() {
                         <ul className="flex justify-center">
                             <li className="mx-4">
                                 <a href="/#">
-                                    <p className={`transition-all duration-300 uppercase ${textClasses.join(" ")}`}>Shop</p>
+                                    <p className={`font-ubuntu font-medium transition-all duration-300 uppercase ${textClasses.join(" ")}`}>Shop</p>
                                 </a>
                             </li>
                             <li className="mx-4">
                                 <a href="/#">
-                                    <p className={`transition-all duration-300 uppercase ${textClasses.join(" ")}`}>About us</p>
+                                    <p className={`font-ubuntu font-medium transition-all duration-300 uppercase ${textClasses.join(" ")}`}>About us</p>
                                 </a>
                             </li>
                             <li className="mx-4">
                                 <a href="/#">
-                                    <p className={`transition-all duration-300 uppercase ${textClasses.join(" ")}`}>Contact</p>
+                                    <p className={`font-ubuntu font-medium transition-all duration-300 uppercase ${textClasses.join(" ")}`}>Contact</p>
                                 </a>
                             </li>
                             <li className="mx-4">
                                 <a href="/#">
-                                    <p className={`transition-all duration-300 uppercase ${textClasses.join(" ")}`}>FAQS</p>
+                                    <p className={`font-ubuntu font-medium transition-all duration-300 uppercase ${textClasses.join(" ")}`}>FAQS</p>
                                 </a>
                             </li>
                             <li className="mx-4">
                                 <a href="/#">
-                                    <p className={`transition-all duration-300 uppercase ${textClasses.join(" ")}`}>Recipes</p>
+                                    <p className={`font-ubuntu font-medium transition-all duration-300 uppercase ${textClasses.join(" ")}`}>Recipes</p>
                                 </a>
                             </li>
                         </ul>

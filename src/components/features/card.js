@@ -39,10 +39,10 @@ export default function Card(props) {
                     <img className="w-10 h-10" src={logo} alt="" />
                 </div>
                 <div className="w-full mb-5">
-                    <h3 className="text-2xl text-gray-800 capitalize">{title}</h3>
+                    <h3 className="font-montserrat font-bold text-2xl text-gray-800 capitalize">{title}</h3>
                 </div>
                 <div className="w-full">
-                    <p className="text-gray-800">
+                    <p className="font-ubuntu text-center text-gray-800">
                         {content}
                     </p>
                 </div>

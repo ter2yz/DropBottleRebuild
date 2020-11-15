@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { stack as Menu } from 'react-burger-menu';
 
 export default class MobileMenu extends Component {
+
     showSettings(event) {
         event.preventDefault();
     }
@@ -53,12 +54,18 @@ export default class MobileMenu extends Component {
             }
         }
         return (
-            <Menu styles={styles} burgerButtonClassName={"block md:hidden"} itemListClassName={"flex flex-col items-start"} right>
-                <a id="home" className="menu-item uppercase mb-2 focus:outline-none" href="/#">Home</a>
-                <a id="about" className="menu-item uppercase mb-2 focus:outline-none" href="/#">Shop</a>
-                <a id="contact" className="menu-item uppercase mb-2 focus:outline-none" href="/#">Contact</a>
-                <a id="faqs" className="menu-item uppercase mb-2 focus:outline-none" href="/#">FAQS</a>
-                <a id="recipes" className="menu-item uppercase mb-2 focus:outline-none" href="/#">Recipes</a>
+            <Menu 
+                styles={styles} 
+                burgerButtonClassName={"block md:hidden"} 
+                itemListClassName={"flex flex-col items-start"} 
+                htmlClassName={ "overflow-hidden" }
+                right
+            >
+                <a id="home" className="font-montserrat font-medium menu-item uppercase mb-2 focus:outline-none" href="/#">Home</a>
+                <a id="about" className="font-montserrat font-medium menu-item uppercase mb-2 focus:outline-none" href="/#">Shop</a>
+                <a id="contact" className="font-montserrat font-medium menu-item uppercase mb-2 focus:outline-none" href="/#">Contact</a>
+                <a id="faqs" className="font-montserrat font-medium menu-item uppercase mb-2 focus:outline-none" href="/#">FAQS</a>
+                <a id="recipes" className="font-montserrat font-medium menu-item uppercase mb-2 focus:outline-none" href="/#">Recipes</a>
             </Menu>
         )
     }
