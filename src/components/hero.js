@@ -10,7 +10,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function Hero() {
     let text = useRef(null);
-    let textTest = useRef(null);
 
     useEffect(() => {
         gsap.fromTo(
@@ -62,10 +61,10 @@ export default function Hero() {
                             <path id="Path_8" data-name="Path 8" d="M0,1080s1366.176,14.668,1920-392.666V1080Z" transform="translate(0 -687.334)" fill="#fff" />
                         </svg>
                     </div>
-                    <div className="absolute w-full md:w-1/2 h-full right-0 flex justify-center items-center">
+                    <div className="absolute w-full md:w-1/2 h-full right-0 hidden sm:flex justify-center items-center">
                         <img className="h-full w-auto transform -rotate-26 scale-70 -translate-x-6 translate-y-10" src={BottleProductImage} alt="" />
                     </div>
-                    <div className="absolute w-full md:w-1/2 h-full right-0 flex justify-center items-center">
+                    <div className="absolute w-full md:w-1/2 h-full right-0 hidden sm:flex justify-center items-center">
                         <img className="h-full w-auto transform rotate-26 scale-75 translate-x-5 translate-y-16" src={BottleProductImage} alt="" />
                     </div>
                 </div>

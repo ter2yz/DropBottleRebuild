@@ -1,5 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
-import { stack as Menu } from 'react-burger-menu';
+import React, { useEffect, useState } from 'react';
 
 import LogoImage from '../assets/images/dropbottle-logo--white.png';
 import LogoDarkImage from '../assets/images/dropbottle-logo--blue.png';
@@ -44,27 +43,27 @@ export default function Header() {
                     <div className="hidden md:block">
                         <ul className="flex justify-center">
                             <li className="mx-4">
-                                <a href="">
+                                <a href="#">
                                     <p className={`transition-all duration-300 uppercase ${textClasses.join(" ")}`}>Shop</p>
                                 </a>
                             </li>
                             <li className="mx-4">
-                                <a href="">
+                                <a href="#">
                                     <p className={`transition-all duration-300 uppercase ${textClasses.join(" ")}`}>About us</p>
                                 </a>
                             </li>
                             <li className="mx-4">
-                                <a href="">
+                                <a href="#">
                                     <p className={`transition-all duration-300 uppercase ${textClasses.join(" ")}`}>Contact</p>
                                 </a>
                             </li>
                             <li className="mx-4">
-                                <a href="">
+                                <a href="#">
                                     <p className={`transition-all duration-300 uppercase ${textClasses.join(" ")}`}>FAQS</p>
                                 </a>
                             </li>
                             <li className="mx-4">
-                                <a href="">
+                                <a href="#">
                                     <p className={`transition-all duration-300 uppercase ${textClasses.join(" ")}`}>Recipes</p>
                                 </a>
                             </li>
