@@ -5,7 +5,15 @@ module.exports = {
   },
   purge: [],
   theme: {
-    extend: {},
+    extend: {
+      rotate: {
+        '26': '26deg',
+        '-26': '-26deg',
+      },
+      scale: {
+        '70': '.7',
+      }
+    },
   },
   variants: {},
   plugins: [],
