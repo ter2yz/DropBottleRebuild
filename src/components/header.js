@@ -43,27 +43,27 @@ export default function Header() {
                     <div className="hidden md:block">
                         <ul className="flex justify-center">
                             <li className="mx-4">
-                                <a href="#">
+                                <a href="/#">
                                     <p className={`transition-all duration-300 uppercase ${textClasses.join(" ")}`}>Shop</p>
                                 </a>
                             </li>
                             <li className="mx-4">
-                                <a href="#">
+                                <a href="/#">
                                     <p className={`transition-all duration-300 uppercase ${textClasses.join(" ")}`}>About us</p>
                                 </a>
                             </li>
                             <li className="mx-4">
-                                <a href="#">
+                                <a href="/#">
                                     <p className={`transition-all duration-300 uppercase ${textClasses.join(" ")}`}>Contact</p>
                                 </a>
                             </li>
                             <li className="mx-4">
-                                <a href="#">
+                                <a href="/#">
                                     <p className={`transition-all duration-300 uppercase ${textClasses.join(" ")}`}>FAQS</p>
                                 </a>
                             </li>
                             <li className="mx-4">
-                                <a href="#">
+                                <a href="/#">
                                     <p className={`transition-all duration-300 uppercase ${textClasses.join(" ")}`}>Recipes</p>
                                 </a>
                             </li>
