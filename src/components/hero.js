@@ -101,7 +101,7 @@ export default function Hero() {
         </div>
         <div className="relative w-full h-full flex justify-center items-center z-10">
           <div className="container">
-            <div className="w-full flex justify-start items-center">
+            <div className="w-full flex justify-start items-center px-4 md:px-0">
               <div className="w-full md:w-1/2 flex flex-col items-center md:items-start">
                 <h1
                   ref={(el) => {
@@ -110,7 +110,7 @@ export default function Hero() {
                   className="font-montserrat text-white text-4xl font-bold leading-none mb-5 text-center md:text-left opacity-0 uppercase"
                 >
                   Water, with benefits.
-                  <br />
+                  <br className="hidden md:block" />
                   Drink your vitamins.
                 </h1>
                 <p

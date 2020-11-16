@@ -60,6 +60,7 @@ export default function Features() {
             xmlns="http://www.w3.org/2000/svg"
             width="100%"
             viewBox="0 0 1920 192.371"
+            className="transform translate-y-1"
           >
             <path
               id="Path_3"
@@ -75,7 +76,7 @@ export default function Features() {
           style={{ backgroundColor: "#f3bca8" }}
         >
           <div className="relative container z-10">
-            <div className="w-full my-10 flex flex-col lg:flex-row items-center lg:items-start justify-center">
+            <div className="w-full my-10 flex flex-col lg:flex-row items-center lg:items-start justify-center px-4 md:px-0">
               <div className="w-full flex flex-col items-center lg:items-start lg:w-4/12">
                 <img
                   ref={(el) => {

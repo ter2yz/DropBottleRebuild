@@ -86,7 +86,7 @@ export default function FeatureProduct() {
     <div className="w-full">
       <div className="w-full flex justify-center">
         <div className="container">
-          <div className="w-full flex flex-col md:flex-row justify-center items-center">
+          <div className="w-full flex flex-col md:flex-row justify-center items-center px-4 md:px-0">
             <div
               ref={(el) => {
                 productBox = el;

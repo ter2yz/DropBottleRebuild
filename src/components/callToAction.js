@@ -89,6 +89,7 @@ export default function CallToAction() {
           xmlns="http://www.w3.org/2000/svg"
           width="100%"
           viewBox="0 0 1920 124.632"
+          className="transform translate-y-1"
         >
           <path
             id="Path_7"
@@ -101,7 +102,7 @@ export default function CallToAction() {
       </div>
       <div className="relative w-full flex justify-center bg-blue-lighter">
         <div className="relative container z-10">
-          <div className="w-full flex justify-center">
+          <div className="w-full flex justify-center px-4 md:px-0">
             <div className="w-full md:w-10/12 flex flex-col items-center md:items-start py-20">
               <h2
                 ref={(el) => {

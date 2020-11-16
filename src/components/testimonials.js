@@ -68,7 +68,7 @@ export default function Testimonials() {
     <div className="w-full">
       <div className="w-full flex justify-center items-center my-10 bg-white">
         <div className="container">
-          <div className="w-full flex flex-col items-center">
+          <div className="w-full flex flex-col items-center px-4 md:px-0">
             <img
               ref={(el) => {
                 icon = el;

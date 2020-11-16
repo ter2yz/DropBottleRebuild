@@ -68,7 +68,7 @@ export default function PlasticBottle() {
   return (
     <div className="w-full">
       <div className="relative w-full flex justify-center mt-20 mb-20 md:mt-0 md:mb-32">
-        <div className="relative container flex justify-center z-10">
+        <div className="relative container flex justify-center z-10 px-4 md:px-0">
           <div className="relative w-full md:w-7/12 flex flex-col items-center md:items-start justify-center z-10 bg-transparent md:bg-gray-primary py-10 md:py-0">
             <p
               ref={(el) => {
@@ -87,7 +87,7 @@ export default function PlasticBottle() {
               Over
               <span className="text-orange-primary"> 3.5 million</span>
               single use plastic
-              <br />
+              <br className="hidden md:block" />
               bottles offset so far
             </h2>
             <button
